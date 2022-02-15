@@ -1,0 +1,21 @@
+/* Impostazione fondo pagina */
+
+html{
+    background-color: lightgrey;
+}
+
+/* Impostazione background banner Titolo */
+#site_header{
+    background-color: white;
+}
+
+/* Inserimento Titolo e Logo */
+.logo{
+    width: 100px;
+}
+
+.text_logo{
+    display:inline-block;
+    font-size: 50px;
+    vertical-align: 2rem;
+}
