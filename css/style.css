@@ -11,7 +11,7 @@ html{
 main{
     background-color: white;
     width: 700px;
-    height: 600px;
+    height: 650px;
     margin: 3rem auto;
     border-radius: 1%;
 }
@@ -80,16 +80,16 @@ h2{
     vertical-align: middle;
 }
 
-.news, .blog, .app, .summit{
+/* .news, .blog, .app, .summit{
     vertical-align: middle;
-}
+} */
 
 .editor{
     vertical-align: middle;
     padding: 8px;
     border-radius: 2rem;
     color: rgb(247, 247, 247);
-    background-color: rgb(69,171,234);
+    background-color: rgb(9,169,273);
     font-size: 12px;
 }
 
@@ -100,7 +100,7 @@ h2{
     padding: 8px;
     border-radius: 2rem;
     color: rgb(247, 247, 247);
-    background-color: rgb(161,121,229);
+    background-color: rgb(171,93,230);
     font-size: 12px;
 }
 
@@ -109,7 +109,7 @@ h2{
     padding: 8px;
     border-radius: 2rem;
     color: rgb(247, 247, 247);
-    background-color: rgb(100,192,192);
+    background-color: rgb(44,198,171);
     font-size: 12px;
 }
 
@@ -118,7 +118,34 @@ h2{
     padding: 8px;
     border-radius: 2rem;
     color: rgb(247, 247, 247);
-    background-color: rgb(242,158,158);
+    background-color: rgb(255,155,0);
+    font-size: 12px;
+}
+
+.website{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    background-color: rgb(236,74,157);
+    font-size: 12px;
+}
+
+.sales{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    background-color: rgb(163, 209, 22);
+    font-size: 12px;
+}
+
+
+/* Final with credits */
+
+footer{
+    text-align: center;
+    padding-top: 50px;
     font-size: 12px;
 }
 
