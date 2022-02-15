@@ -6,6 +6,8 @@ html{
     font-family: Verdana, sans-serif;
 }
 
+
+/* Impostazione main pagina */
 main{
     background-color: white;
     width: 700px;
@@ -14,6 +16,8 @@ main{
     border-radius: 1%;
 }
 
+
+/* Utilities */
 hr{
     border-top: 5px solid rgb(230, 229, 229);
 }
@@ -30,23 +34,24 @@ h2{
 /* Inserimento Titolo e Logo */
 .logo{
     width: 100px;
+    vertical-align: middle;
 }
 
 .text_logo{
     display:inline-block;
     font-size: 50px;
-    vertical-align: 2rem;
+    vertical-align: middle;
 }
 
 /* Configurazione NAV BAR */
 
-#navigator, #new_task{
+#navigator, #new_task, #today, #upcoming{
     margin-left: 7%;
     margin-bottom: 3%;
 }
 
 .task{
-    color: rgba(138, 138, 138, 0.897);
+    color: rgba(255, 255, 255, 0.973);
     margin-top: 25px;
     display: inline-block;
     background-color: rgb(69,171,234);
@@ -57,10 +62,10 @@ h2{
 }
 
 .section{
-    color: rgba(138, 138, 138, 0.897);
+    color: rgba(218, 218, 218, 0.911);
     margin-top: 25px;
     display: inline-block;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     line-height: 0.5;
     padding: 10px;
@@ -72,17 +77,48 @@ h2{
 
 .check, .cross{
     width: 25px;
+    vertical-align: middle;
 }
 
-.news{
-    vertical-align: top;
+.news, .blog, .app, .summit{
+    vertical-align: middle;
 }
 
 .editor{
-    vertical-align: 8px;
+    vertical-align: middle;
     padding: 8px;
     border-radius: 2rem;
     color: rgb(247, 247, 247);
     background-color: rgb(69,171,234);
     font-size: 12px;
 }
+
+/* Configurazione New Section tab */
+
+.goals{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    background-color: rgb(161,121,229);
+    font-size: 12px;
+}
+
+.rec{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    background-color: rgb(100,192,192);
+    font-size: 12px;
+}
+
+.mobile{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    background-color: rgb(242,158,158);
+    font-size: 12px;
+}
+
