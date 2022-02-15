@@ -1,0 +1,145 @@
+
+/* Trattasi di pagina bonus nella quale proveremo
+a ridurre il codice creato */
+
+
+/* Impostazione fondo pagina */
+
+html{
+    background-color: rgb(230, 229, 229);
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* Impostazione main pagina */
+main{
+    background-color: white;
+    width: 700px;
+    height: 650px;
+    margin: 3rem auto;
+    border-radius: 1%;
+}
+
+
+/* Utilities */
+hr{
+    border-top: 5px solid rgb(230, 229, 229);
+}
+
+h2{
+    font-size: 17px;
+}
+
+/* Impostazione background banner Titolo */
+#site_header{
+    background-color: white;
+}
+
+/* Inserimento Titolo e Logo */
+.logo{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.text_logo{
+    display:inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+/* Configurazione NAV BAR */
+
+#navigator, #new_task, #today, #upcoming{
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+
+.task{
+    color: rgba(255, 255, 255, 0.973);
+    margin-top: 25px;
+    display: inline-block;
+    background-color: rgb(69,171,234);
+    border-radius: 5px;
+    line-height: 0.5;
+    padding: 9px;
+    border: 2px solid rgba(138, 138, 138, 0.986);
+}
+
+.section{
+    color: rgba(218, 218, 218, 0.911);
+    margin-top: 25px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    line-height: 0.5;
+    padding: 10px;
+    border: 2px solid rgba(138, 138, 138, 0.986);
+}
+
+
+/* Configurazione didascalie con colori per banner*/
+
+.check, .cross{
+    width: 25px;
+    vertical-align: middle;
+}
+
+/* Qui abbiamo settato i colori per i banner identificativi */
+.editor{
+
+    background-color: rgb(9,169,273);
+    
+}
+
+
+
+.goals{
+    
+    background-color: rgb(171,93,230);
+    
+}
+
+.rec{
+    
+    background-color: rgb(44,198,171);
+    
+}
+
+.mobile{
+    
+    background-color: rgb(255,155,0);
+    
+}
+
+.website{
+     background-color: rgb(236,74,157);
+    
+}
+
+.sales{
+    
+    background-color: rgb(163, 209, 22);
+    
+}
+
+/* FINE IMPOSTAZIONI COLORI */
+
+/* Configurazione univoca per i settaggi della lista */
+#control{
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    font-size: 12px;
+}
+/* FINE SETTAGGI LISTA */
+
+/* Final with credits */
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
