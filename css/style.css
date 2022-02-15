@@ -1,7 +1,21 @@
 /* Impostazione fondo pagina */
 
 html{
-    background-color: lightgrey;
+    background-color: rgb(230, 229, 229);
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    margin: 3rem auto;
+    border-radius: 1%;
+}
+
+hr{
+    border-top: 5px solid rgb(230, 229, 229);
 }
 
 /* Impostazione background banner Titolo */
@@ -18,4 +32,31 @@ html{
     display:inline-block;
     font-size: 50px;
     vertical-align: 2rem;
+}
+
+/* Configurazione NAV BAR */
+
+#navigator{
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+
+.task{
+    color: rgba(255, 255, 255, 0.897);
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: rgb(69,171,234);
+    border-radius: 5px;
+    line-height: 2;
+}
+
+.section{
+    color: rgba(255, 255, 255, 0.897);
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: rgb(69,171,234);
+    border-radius: 5px;
+    line-height: 2;
 }
