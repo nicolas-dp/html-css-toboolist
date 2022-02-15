@@ -55,26 +55,24 @@ h2{
     margin-bottom: 3%;
 }
 
-.task{
-    color: rgba(255, 255, 255, 0.973);
+.setting{
     margin-top: 25px;
     display: inline-block;
-    background-color: rgb(69,171,234);
     border-radius: 5px;
     line-height: 0.5;
     padding: 9px;
     border: 2px solid rgba(138, 138, 138, 0.986);
 }
 
-.section{
+
+#task{
+    color: rgba(255, 255, 255, 0.973);
+    background-color: rgb(69,171,234);
+}
+
+#section{
     color: rgba(218, 218, 218, 0.911);
-    margin-top: 25px;
-    display: inline-block;
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    line-height: 0.5;
-    padding: 10px;
-    border: 2px solid rgba(138, 138, 138, 0.986);
 }
 
 
@@ -82,42 +80,47 @@ h2{
 
 .check, .cross{
     width: 25px;
+    
     vertical-align: middle;
 }
 
 /* Qui abbiamo settato i colori per i banner identificativi */
 .editor{
-
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 2rem;
+    color: rgb(247, 247, 247);
+    font-size: 12px;
     background-color: rgb(9,169,273);
     
 }
 
 
 
-.goals{
+#goals{
     
     background-color: rgb(171,93,230);
     
 }
 
-.rec{
+#rec{
     
     background-color: rgb(44,198,171);
     
 }
 
-.mobile{
+#mobile{
     
     background-color: rgb(255,155,0);
     
 }
 
-.website{
+#website{
      background-color: rgb(236,74,157);
     
 }
 
-.sales{
+#sales{
     
     background-color: rgb(163, 209, 22);
     
@@ -126,7 +129,7 @@ h2{
 /* FINE IMPOSTAZIONI COLORI */
 
 /* Configurazione univoca per i settaggi della lista */
-#control{
+.control .first{
     vertical-align: middle;
     padding: 8px;
     border-radius: 2rem;
